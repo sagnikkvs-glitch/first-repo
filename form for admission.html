@@ -1,0 +1,69 @@
+<!-- in this I have used the form, fieldset, label, input, input type="radio" and select tags -->
+<html>
+<head>
+    <title>Addition</title>
+</head>
+<body>
+ <fieldset>
+    <legend><h2>school admission form</h2> </legend>
+    <form>
+        <h1>student details </h1>
+        <div>
+            <label>Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label>date of birth:</label>
+            <input type="date" id="dob" name="dob"><br><br>
+
+            <label><i>Gender</i></label><br>
+
+            <!-- to give radio options we dont use select tag but -->
+            <!-- we directly use input tag with type radio and give same name to all the options to make them in one group    -->
+                 <input type="radio" id="gender1" name="gender" value="male">male</option>    <br>
+                 <input type="radio" id="gender2" name="gender" value="female">female</option>    <br>
+                <input type="radio" id="gender3" name="gender" value="other">other</option>   <br>
+            
+                <br><br>
+            
+                <label>class</label>
+           <!-- for the selection we only give the option tag and the value  -->
+            <!-- the value can br same but remem to write the id different-->
+            <select id="class" name="class">
+                <option value="1st">1st</option>
+                <option value="2nd">2nd</option>
+                <option value="3rd">3rd</option>
+                <option value="4th">4th</option>
+                <option value="5th">5th</option>
+             </select>
+                <br><br>   
+                <label>blood group</label>
+                <input type="text" id="blood group" name="blood group"><br><br>
+        </div>
+
+                <h1>parent details</h1>
+        <div>
+            <label>father name:</label>
+            <input type="text" id="father name" name="father name"><br><br>
+
+            <label>mother name:</label>
+            <input type="text" id="mother name" name="mother name"><br><br>
+
+            <label>contact number:</label>
+            <input type="number" id="contact number" name="contact number"><br><br>
+
+            <label>email:</label>
+            <input type="email" id="email" name="email"><br><br>  
+            
+            <label>password</label>
+            <input type="password" id="password" name="password"><br><br>
+        </div>
+</fieldset>   
+        <footer style="text-align:center"> 
+            <!-- the following line is the use of inline css -->
+                <h2 style="color:rgb(0, 174, 255)">welcome to our school</h2>
+                <button type="submit">click here to submit the form 😊😎😎></form></button>
+        </footer>
+
+</form>
+</body>
+</html>
